@@ -1,13 +1,22 @@
 import React from 'react';
-import { ThemeProvider } from 'styled-components';
+import styled, { ThemeProvider } from 'styled-components';
 import { theme } from './theme/MainTheme';
 import GlobalStyle from './theme/GlobalStyle';
+import TopBar from './components/topbar/TopBar';
+import Sections from './views/Sections';
+
+const Wrapper = styled.div`
+  height: 100vh;
+`;
 
 const App = () => (
-  <ThemeProvider theme={theme}>
-    <GlobalStyle />
-    <h1>ELON</h1>
-  </ThemeProvider>
+  <Wrapper>
+    <ThemeProvider theme={theme}>
+      <GlobalStyle />
+      <TopBar />
+      <Sections />
+    </ThemeProvider>
+  </Wrapper>
 );
 
 export default App;

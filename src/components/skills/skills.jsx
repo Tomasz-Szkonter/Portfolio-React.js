@@ -1,5 +1,10 @@
 import React from 'react';
+import styled from 'styled-components';
 
-export default function skills() {
-  return <div>f</div>;
-}
+const Wrapper = styled.div`
+  background-color: blue;
+`;
+
+const Skills = () => <Wrapper id="skills">Skills</Wrapper>;
+
+export default Skills;

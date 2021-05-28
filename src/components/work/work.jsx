@@ -1,5 +1,10 @@
 import React from 'react';
+import styled from 'styled-components';
 
-export default function work() {
-  return <div>heloo</div>;
-}
+const Wrapper = styled.div`
+  background-color: purple;
+`;
+
+const Work = () => <Wrapper id="work">Work</Wrapper>;
+
+export default Work;
