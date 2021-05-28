@@ -8,14 +8,17 @@
             1,
             {
                 "extensions": [
-                    ".js"
+                    ".js",
+                    ".jsx"
                 ]
             }
         ],
         "import/prefer-default-export": "off",
         "import/no-unresolved": "off",
         "linebreak-style": 0,
-        "object-curly-newline": "off"
+        "object-curly-newline": "off",
+        "max-len": ["error", {"code": 130}],
+        "no-console":"off"
     },
     "settings": {
         "import/resolver": {
