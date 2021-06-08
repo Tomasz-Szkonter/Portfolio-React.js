@@ -23,9 +23,9 @@ const SectionWrapper = styled.div`
   }
 
   > div {
+    scroll-snap-align: start;
     width: 100vw;
     height: calc(100vh - 70px);
-    scroll-snap-align: start;
   }
 `;
 

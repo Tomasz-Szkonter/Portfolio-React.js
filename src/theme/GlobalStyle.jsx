@@ -14,10 +14,12 @@ const GlobalStyle = createGlobalStyle`
     }   
 
     html {
+        height: 100%;
         font-size: 62.5%;
     }
 
     body{
+        height: 100%;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         font-family: 'Open Sans', sans-serif;
